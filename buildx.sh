@@ -2,7 +2,7 @@
 set -ex
 
 # Base options
-DOCKER_REPO=msnelling/cloudflared
+DOCKER_REPO=hackmonker/cloudflared
 BUILDX_ARGS="--pull --no-cache --platform linux/amd64,linux/arm64,linux/arm/v7"
 
 # Parse options
