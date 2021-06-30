@@ -9,7 +9,7 @@ RUN apk add --no-cache ca-certificates \
 
 # Fetch go code
 RUN git clone https://github.com/cloudflare/cloudflared.git /src && \
-    cd /src &&
+    cd /src
 
 # Set working directory and build
 WORKDIR /src
